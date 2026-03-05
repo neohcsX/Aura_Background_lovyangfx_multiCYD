@@ -90,7 +90,6 @@ Requirements:
 
 Images will automatically rotate and can also be changed manually using swipe gestures.
 
-
 ## Converting Images for SD Card
 
 Example using ImageMagick:
@@ -103,6 +102,18 @@ convert input.jpg \
   -compress none \
   -define bmp:subtype=RGB565 \
   output.bmp
+
+Converted images should be copied to the SD card in the folder:
+
+/backgrounds
+
+Example SD card layout:
+
+SD Card
+└── backgrounds
+    ├── bg01.bmp
+    ├── bg02.bmp
+    └── bg03.bmp
 
 ---
 
